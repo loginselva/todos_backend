@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "todo backend server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loginselva/todos.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "selva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loginselva/todos/issues"
+  },
+  "homepage": "https://github.com/loginselva/todos#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.4",
+    "morgan": "^1.9.1"
+  }
+}
